@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Technika 5.0 - NOVA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@400..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+
+</head>
+
+<body>
+  <audio id="audioplayer" autoplay loop hidden> 
+    <source src="images/background_song.mp3" type="audio/mpeg"> 
+    Your browser does not support the audio element. 
+</audio> 
+  <div  class="audio-container">
+        <audio id="audioplayer" playsinline autoplay>
+          <source src="images/opening_sound.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+  <div id="particles-js"></div>
+
+  <nav aria-label="Primary Navigation">
+    <ul class="nav-list">
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#categories">CATEGORIES</a></li>
+      <li><a href="#memories">PREVIOUS YEARS</a></li>
+      <li><a href="#sponsors">SPONSORS</a></li>
+    </ul>
+  </nav>
+
+  <header id="home" role="banner" aria-label="Event Poster Section">
+    <h1>
+      TECHNIKA 5.0
+    </h1>
+    <h3>NOVA - Unleash The Spark of Tomorrow</h3>
+    <h2>
+      <div>
+        <img src="images/University Logo.png" alt="Arka Jain Logo" class="unlogo" />
+      </div><br>School Of Engineering & IT Fest
+    </h2>
+    <img src="images/poster.jpeg" alt="Technika 5.0 Event Poster" class="poster" />
+  </header>
+
+  <div class="body-flex-container">
+    <main>
+      <section id="introduction" tabindex="0" class="section-fade-in">
+        <p>Welcome to Technika 5.0 - NOVA, our flagship School Of Engineering & IT Fest. Explore the incredible variety
+          of events across various categories including Technical, Fun, Cultural, and Innovation & Entrepreneurship.
+          Select a category below to see all events and register.</p>
+      </section>
+
+      <section id="categories" aria-labelledby="categories-title" tabindex="0" class="section-fade-in">
+        <h3 id="categories-title">Event Categories</h3>
+        <ul class="category-list">
+          <li><a href="categories/technical-events.html">Technical Events</a></li>
+          <li><a href="categories/fun-events.html">Fun Events</a></li>
+          <li><a href="categories/cultural-events.html">Cultural Events</a></li>
+          <li><a href="categories/innovation-entrepreneurship.html">Innovation & Entrepreneurship</a></li>
+        </ul>
+      </section>
+
+      <section id="memories" aria-labelledby="memories-title" tabindex="0" class="section-fade-in">
+        <h3 id="memories-title">Previous Years Event Memories</h3>
+        <div class="slider">
+          <button class="slider-btn prev" aria-label="Previous Memory">&#10094;</button>
+          <img id="memory-image" src="images/memories-1.jpg" alt="Event memory image" />
+          <button class="slider-btn next" aria-label="Next Memory">&#10095;</button>
+        </div>
+      </section>
+
+    </main>
+    <aside class="side-image" aria-label="Fest Visual">
+      <img src="images/Robot1.png" alt="Technika 5.0 - ROBO Visual" />
+    </aside>
+    <script src="js/main.js"></script>
+  </div>
+  
+  <!-- Sections START -->
+  <section id="sponsors" class="section-fade-in sponsors-section">
+    <h3>OUR SPONSORS</h3>
+    <div class="sponsors-logos">
+      <img src="images/sponsor1.png" alt="Sponsor 1" />
+      <img src="images/sponsor2.png" alt="Sponsor 2" />
+      <img src="images/sponsor3.png" alt="Sponsor 3" />
+      <img src="images/sponsor4.png" alt="Sponsor 4" />
+      <img src="images/sponsor5.png" alt="Sponsor 5" />
+      <img src="images/sponsor6.png" alt="Sponsor 6" />
+    </div>
+  </section>
+
+  <section class="section-fade-in convenor-section">
+    <h3>CONVENOR</h3>
+    <p>Dr. Arvind Kumar Pandey (Dean, School of Engineering & IT)</p>
+    <p>Dr. Ashwini Kumar (Asst. Dean, School of Engineering & IT)</p>
+  </section>
+
+  <section class="section-fade-in credits-section">
+    <h3>WEBSITE CREDITS</h3>
+    <p>
+      Developed by <strong>TECHNIKA Web Team</strong><br />
+      <strong>Members:</strong> Sourav Agarwal
+    </p>
+  </section>
+
+  <!-- Sections END -->
+
+  <footer class="footer">
+    <p>&copy; 2025 Technika - School Of Engineering & IT, Arka Jain University. </p>
+  </footer>
+
+</body>
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+
+</html>
